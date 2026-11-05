@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-iot-tp",
+  "version": "1.0.0",
+  "description": "Custom Node-RED node for IoT TP",
+  "keywords": [
+    "node-red",
+    "iot"
+  ],
+  "homepage": "https://github.com/YassineTanabene/node-red-contrib-iot-tp#readme",
+  "bugs": {
+    "url": "https://github.com/YassineTanabene/node-red-contrib-iot-tp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YassineTanabene/node-red-contrib-iot-tp.git"
+  },
+  "license": "Apache-2.0",
+  
+  "node-red": {
+      "nodes": {
+          "lower-case": "node.js"
+      }
+  },
+  "author": "YassineTNB",
+  "type": "commonjs",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
